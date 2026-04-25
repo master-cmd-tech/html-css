@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>button</title>
+</head>
+<body>
+    <a href="#">
+        <button style="font-size: 25px; background-color: gray; color:aqua; border-radius: 25px;">button</button>
+    </a><hr>
+
+    <button onclick="doSomething()"  style="font-size: 25px; background-color: gray; color:aqua; border-radius: 25px;">button function</button>
+    <p id="greeting">Hello</p>
+    <script>
+        function doSomething() {
+            document.getElementById("greeting").innerHTML = "Goodbye";
+        }
+    </script>
+</body>
+</html>
