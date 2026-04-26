@@ -1,0 +1,16 @@
+/* https://fonts.google.com/ */
+@font-face{
+    src: url(fonts/UnifrakturMaguntia-Regular.ttf);
+    font-family: UnifrakturMaguntia;
+}
+h1{
+    font-family: UnifrakturMaguntia;
+}
+p{
+    font-family: "lucida console", "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+
+
+}
