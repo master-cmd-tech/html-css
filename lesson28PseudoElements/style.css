@@ -1,0 +1,28 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color: yellow;
+}
+p::selection{
+    color: green;
+    background-color: black;
+}
+#fruit li::before{
+   
+}
+#apple::after{
+    content: "+-+";
+}
+#orange::after{
+    content: "--+";
+}
+#banana::after{
+    content: "+++";
+}
+#fruit li::marker{
+    content: "I  ";
+    color: blue;
+    font-size: 1.2em;
+}
